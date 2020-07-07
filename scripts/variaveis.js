@@ -1,0 +1,57 @@
+let imagemCenario;
+let imagemCenarioTransicao;
+let imagemCenarioParque;
+let imagemCeu;
+let imagemPersonagem;
+let imagemCorrendo;
+let imagemPulando;
+let imagemInimigoTerrestre;
+let imagemMegazordVitoria;
+let imagemGameOver;
+let imagemInimigoGrande;
+let imagemInimigoVoador;
+let imagemAbaixado;
+let imagemTelaInicial;
+let fonteTelaInicial;
+let imagemMoeda;
+let imagemMegazordCaido;
+
+let imagemCoracao;
+let jogo;
+let velocidade;
+let altura;
+let cenario;
+let inimigoTerrestre;
+let inimigoGrande;
+let inimigoVoador;
+let somDoJogo;
+let somDoPulo;
+let somDano;
+let somVida;
+let somPoder;
+let somMoeda;
+let personagem;
+let pontuacao;
+let contadorDeFrame=0;
+let contadorPoder;
+let podeContar;
+let vidas;
+let menorValorVelocidade = 7;
+let maiorValorVelocidade = 12;
+let telaInicial;
+let cenaAtual = 'telaInicial';
+let cenas;
+let aconteceuGameOver = false;
+let botaoGerenciador;
+let botaoGameOver;
+let frameParaAnimacoes = 0;
+let contadorAbaixado = 0;
+let podeContarAbaixado = false;
+let ceu;
+let pararObjetos = false;
+let megazordCaido;
+const inimigos = [];
+const itens = [];
+
+
+
